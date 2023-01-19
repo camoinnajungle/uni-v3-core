@@ -1,9 +1,9 @@
-git clone https://github.com/camoinnajungle/uni-v3-core.git
-cd uni-v3-core
-yarn install
-yarn compile
-export NODE_OPTIONS=--openssl-legacy-provider
-yarn test
+- git clone https://github.com/camoinnajungle/uni-v3-core.git
+- cd uni-v3-core
+- yarn install
+- yarn compile
+- export NODE_OPTIONS=--openssl-legacy-provider
+- yarn test
 
 # Uniswap V3
 
