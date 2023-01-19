@@ -1,3 +1,10 @@
+git clone https://github.com/camoinnajungle/uni-v3-core.git
+cd uni-v3-core
+yarn install
+yarn compile
+export NODE_OPTIONS=--openssl-legacy-provider
+yarn test
+
 # Uniswap V3
 
 [![Lint](https://github.com/Uniswap/uniswap-v3-core/actions/workflows/lint.yml/badge.svg)](https://github.com/Uniswap/uniswap-v3-core/actions/workflows/lint.yml)
